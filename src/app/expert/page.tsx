@@ -1,10 +1,10 @@
-import BasicCounter from "@/components/BasicCounter";
+import ExpertCounter from "@/components/ExpertCounter";
 import { Card, CardHeader, CardTitle } from "@/components/shadcnui/card";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Basic | Counter State App",
-	description: "Basic Counter State App",
+	title: "Expert | Counter State App",
+	description: "Expert Counter State App",
 };
 
 const page = () => {
@@ -13,11 +13,11 @@ const page = () => {
 			<Card className="w-xs">
 				<CardHeader>
 					<CardTitle className="text-center text-2xl font-semibold">
-						Basic Counter
+						Expert Counter
 					</CardTitle>
 				</CardHeader>
 
-				<BasicCounter />
+				<ExpertCounter />
 			</Card>
 		</section>
 	);
